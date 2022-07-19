@@ -317,7 +317,6 @@ footer {
         color: white;
         font-family: 'Open Sans', sans-serif;
         font-family: 'Overpass', sans-serif;
-        margin-top: 25px;
     }
     
     .footer-links {
@@ -344,7 +343,7 @@ footer {
     }
     
     .derechos {
-        padding-top: 180px;
+        padding-top: 170px;
         text-align: center;
         font-size: 14px;
     }
@@ -402,13 +401,14 @@ footer {
         width: 100%;
         height: auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 315px 315px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 315px;
         grid-template-columns: 560px 560px;
         padding: 5px;
         grid-gap: 15px;
         padding-left: 400px;
-        margin-bottom: 100px;
+        margin-top: 90px;
+        margin-bottom: 90px;
     }
     
     .youtube iframe {
@@ -492,4 +492,8 @@ form { max-width:420px; margin:50px auto; }
 
 #carouselExampleCaptions {
     padding: 0%;
+}
+
+.nav-link {
+    text-transform: uppercase;
 }
