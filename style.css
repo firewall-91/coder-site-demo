@@ -9,10 +9,8 @@ html {
 }
 
 .arribados {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Overpass', sans-serif;
     font-size: 24px;
-    padding: 10px;
+    padding: 5px;
     background-color: #1d1a18;
     color: white;
     text-align: center;
@@ -28,8 +26,6 @@ footer {
     min-height: 200px;
     width: 100%;
     color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Overpass', sans-serif;
     margin-top: 25px;
 }
 
@@ -135,8 +131,6 @@ footer {
         margin-bottom: 10px;
         margin-left: 50px;
         border-radius: 15px;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Overpass', sans-serif;
         font-size: 14px;
         padding: 5px;
         background-color: #1d1a18;
@@ -315,8 +309,7 @@ footer {
         min-height: 200px;
         width: 100%;
         color: white;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Overpass', sans-serif;
+        bottom: 0px;
     }
     
     .footer-links {
@@ -356,6 +349,7 @@ footer {
         grid-template-columns: 500px 500px 500px;
         padding: 10px 10px 50px 150px;
         grid-gap: 15px;
+        margin-top: 35px;
     }
     .item1 {
         grid-column: 1/2;
@@ -436,6 +430,8 @@ footer {
 
     .spotify {
         padding: 5px 5px 50px 650px;
+        margin-top: 30px;
+        margin-left: 80px;
     }
 }
 
@@ -444,8 +440,6 @@ footer {
 form { max-width:420px; margin:50px auto; }
   .entrada {
     color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Overpass', sans-serif;
     font-weight:500;
     font-size: 18px;
     border-radius: 5px;
@@ -482,8 +476,6 @@ form { max-width:420px; margin:50px auto; }
     transition: all 0.3s;
     margin-top:-4px;
     font-weight:700;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Overpass', sans-serif;
 
   }
   [type="submit"]:hover { background:#e7a261; }
@@ -496,4 +488,14 @@ form { max-width:420px; margin:50px auto; }
 
 .nav-link {
     text-transform: uppercase;
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 15px 0px 25px 15px;
+}
+
+#navbarNav {
+    padding: 0%;
+    margin-left: -200px;
 }
