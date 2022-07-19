@@ -8,39 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    width: auto;
-    height: 300px;
-    padding: 5px;
-    margin-bottom: 50px;
-}
-
-.navegador {
-    height: 250px;
-    width: 100%;
-    float: right;
-    background-color: white;
-}
-
-.isologotipo {
-    float: left;
-}
-
-.banner {
-    width: 100%;
-    height: 500px;
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 500px;
-}
-
-.banner1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    background-image: url(./media/banner2.jpg);
-    background-position: cover;
-}
-
 .arribados {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Overpass', sans-serif;
@@ -151,13 +118,6 @@ footer {
 
 
 @media only screen and (min-width:320px) {
-    .banner {
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: 1;
-        background-size: cover;
-    }
     .arribados-pic {
         width: 100%;
         height: auto;
@@ -182,15 +142,6 @@ footer {
         background-color: #1d1a18;
         color: white;
         text-align: center;
-    }
-    .isologotipo a img{
-        float: left;
-        width: 250px;
-        height: 250px;
-    }
-    .isologotipo {
-        padding: 5px;
-        margin-left: 20px;
     }
     .derechos {
         padding-top: 40px;
@@ -302,13 +253,6 @@ footer {
 }
 
 @media only screen and (min-width:768px) {
-    .banner {
-        width: 100%;
-        height: 500px;
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 500px;
-    }
     .arribados-pic {
         width: 100%;
         height: auto;
@@ -338,13 +282,7 @@ footer {
 
 
 @media only screen and (min-width:1200px) {
-    .banner {
-        width: 100%;
-        height: 500px;
-        display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 500px;
-    }
+
     .arribados-pic {
         width: 580px;
         height: auto;
@@ -501,122 +439,9 @@ footer {
     }
 }
 
-.menu {
-    position: absolute;
-    top: 15%;
-    right: 0;
-    left: 0;
-    width: auto;
-    display: table;
-    margin: 0 auto;
-  }
-
-
-
-.menu ul li {
-    display: inline-block;
-}
-  
-    a {
-    position: relative; 
-    display: table-cell;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Overpass', sans-serif;
-    font-weight: bold;
-    padding: 10px 20px;
-    transition: 0.2s ease color;
-    text-transform: uppercase;
-  }
-  
-  a:before,
-  a:after {
-    content: "";
-    position: absolute;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: 0.2s ease transform;
-  }
-  
-  a:before {
-    top: 0;
-    left: 10px;
-    width: 6px;
-    height: 6px;
-  }
-  
-  a:after {
-    top: 5px;
-    left: 18px;
-    width: 4px;
-    height: 4px;
-  }
-  
-  a:nth-child(1):before {
-    background-color: yellow;
-  }
-  
-  a:nth-child(1):after {
-    background-color: red;
-  }
-  
-  a:nth-child(2):before {
-    background-color: rgb(2, 215, 243);
-  }
-  
-  a:nth-child(2):after {
-    background-color: rgb(137, 255, 0);
-  }
-  
-  a:nth-child(3):before {
-    background-color: purple;
-  }
-  
-  a:nth-child(3):after {
-    background-color: palevioletred;
-  }
-  
-  #indicator {
-    position: absolute;
-    left: 5%;
-    bottom: 0;
-    width: 30px;
-    height: 3px;
-    background-color: rgb(156, 80, 9);
-    border-radius: 5px;
-    transition: 0.2s ease left;
-  }
-  
-  a:hover {
-    color: rgb(133, 72, 23);
-  }
-  
-  a:hover:before,
-  a:hover:after {
-    transform: scale(1);
-  }
-  
-  a:nth-child(1):hover ~ #indicator {
-    background: linear-gradient(130deg, yellow, red);
-  }
-  
-  a:nth-child(2):hover ~ #indicator {
-    left: 34%;
-    background: linear-gradient(130deg, #00e2ff, #89ff00);
-  }
-  
-  a:nth-child(3):hover ~ #indicator {
-    left: 70%;
-    background: linear-gradient(130deg, purple, palevioletred);
-  }
-  
-  form { max-width:420px; margin:50px auto; }
-
 /* CSS del formulario de contacto */
 
-
+form { max-width:420px; margin:50px auto; }
   .entrada {
     color: black;
     font-family: 'Open Sans', sans-serif;
@@ -664,3 +489,7 @@ footer {
   [type="submit"]:hover { background:#e7a261; }
 
 /*   ------------------------------------------------------- */
+
+#carouselExampleCaptions {
+    padding: 0%;
+}
