@@ -492,10 +492,10 @@ form { max-width:420px; margin:50px auto; }
 
 .navbar-brand {
     padding: 0px;
-    margin: 15px 0px 25px 15px;
+    margin: 25px 0px 25px 35px;
 }
 
 #navbarNav {
     padding: 0%;
-    margin-left: -200px;
+    margin-left: -215px;
 }
