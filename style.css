@@ -27,7 +27,7 @@ html {
 }
 
 .footer-links ul li a{
-    color: rgb(243, 243, 243);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -318,7 +318,7 @@ html {
         border-radius: 25px;
     }
     footer {
-        background-color: #1d1a18;
+        background-color: #cecece;
         min-height: 200px;
         width: 100%;
         color: white;
@@ -333,9 +333,13 @@ html {
     .footer-links ul {
         display: inline-block;
         text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.5pt;
     }
     .footer-links ul li a{
         text-decoration: none;
+        font-weight: 400;
+        color: black;
     }
     .redes-sociales {
         text-align: center;
@@ -344,17 +348,17 @@ html {
     
     .redes-sociales ul {
         display: inline-block;
-        font-size: 42px;
-        padding-inline: 5px;
-        color: #c0c0c0;
+        font-size: 36px;
+        padding-inline: 2px;
+        color: #464646;
     }
     
     .derechos {
         font-size: 14px;
         text-align: center;
         padding-top: 5px;
-        padding-bottom: 2px;
-        color: #c0c0c0;
+        padding-bottom: 1px;
+        color: black;
     }
     .product {
         width: 100%;
