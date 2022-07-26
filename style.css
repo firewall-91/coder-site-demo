@@ -352,9 +352,17 @@ background-image: linear-gradient(180deg, #d4d4d4 0%, #b77539 100%);
     
     .redes-sociales ul a{
         display: inline-block;
-        font-size: 36px;
-        padding-inline: 2px;
+        font-size: 34px;
+        padding-inline: 0.1pt;
         color:#161515;
+        font-weight: 100;
+
+    }
+
+    .redes-sociales {
+
+        font-size: 34px;
+        color:#dbdbdb;
         font-weight: 100;
 
     }
