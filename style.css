@@ -21,36 +21,25 @@ html {
     border-radius: 25px;
 }
 
-footer {
-    background-color: #1d1a18;
-    min-height: 200px;
-    width: 100%;
-    color: white;
-    margin-top: 25px;
-}
-
-.footer-links {
-    float: left;
-    padding-left: 50px;
-    padding-top: 90px;
-}
-
-.footer-links ul {
-    padding: 5px;
+.footer-links ul li{
+    padding: 7px;
     display: inline-block;
+}
+
+.footer-links ul li a{
+    color: rgb(243, 243, 243);
 }
 
 
 .redes-sociales ul {
     display: inline-block;
     font-size: 28px;
-    padding-left: 5px;
 }
 
 .derechos {
-    padding-top: 80px;
-    text-align: center;
     font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .arribados-pic item {
@@ -135,14 +124,8 @@ footer {
         text-align: center;
         font-size: 12px;
     }
-    .redes-sociales {
-        padding: 5px;
-        margin-top: 40px;
-        text-align: center;
-    }
     .footer-links {
         text-align: center;
-        padding: 10px;
     }
     
     .footer-links ul {
@@ -343,32 +326,35 @@ footer {
     }
     
     .footer-links {
-        float: left;
-        padding-left: 50px;
-        padding-top: 90px;
+        text-align: center;
+        padding-top: 50px;
     }
     
     .footer-links ul {
-        padding: 5px;
         display: inline-block;
+        text-transform: uppercase;
     }
-    
+    .footer-links ul li a{
+        text-decoration: none;
+    }
     .redes-sociales {
-        float: right;
-        padding-top: 90px;
-        padding-right: 50px;
+        text-align: center;
+        padding-top: 5px;
     }
     
     .redes-sociales ul {
         display: inline-block;
-        font-size: 28px;
-        padding-left: 5px;
+        font-size: 42px;
+        padding-inline: 5px;
+        color: #c0c0c0;
     }
     
     .derechos {
-        padding-top: 170px;
-        text-align: center;
         font-size: 14px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        color: #c0c0c0;
     }
     .product {
         width: 100%;
@@ -528,4 +514,26 @@ form { max-width:420px; margin:50px auto; }
 #navbarNav {
     padding: 0%;
     margin-left: -215px;
+}
+
+.text {
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+
+.store {
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+
+.titulo {
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+
+#texto {
+    color: rgb(36, 36, 36);
 }
