@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: white;
 }
 
 .arribados-pic item {
@@ -636,3 +637,4 @@ textarea {
       transform: translate3d(0, 0, 0) translateZ(0);
     }
   }
+
