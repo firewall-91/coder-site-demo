@@ -50,6 +50,23 @@ html {
 
 @media only screen and (min-width:320px) {
     
+    .navbar-brand {
+        padding: 0px;
+        margin: 2px;
+    }
+    .navbar-brand img{
+        width: 160px;
+        padding: 10px;
+    }
+    
+    #navbarNav {
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .carousel {
+        display: none;
+    }
+
     .arribados-pic {
         width: auto;
         height: auto;
@@ -62,6 +79,7 @@ html {
         grid-gap: 5px;
         margin-top: 10px;
         margin-bottom: 10px;   
+        justify-content: center;
     }
     .destaca1 {
         grid-column: 1/2;
@@ -207,7 +225,66 @@ html {
 }
 }
 
+@media only screen and (min-width:575px){
+
+    .navbar-brand {
+        padding: 0px;
+        margin: 2px;
+    }
+    .navbar-brand img{
+        width: 180px;
+        padding: 5px;
+    }
+
+    .carousel {
+        display:flex;
+    }
+    
+    .destaca1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .destaca2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .arribados-pic {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        grid-template-rows: 397px;
+        grid-template-columns: 280px 280px;
+        padding: 5px;
+        grid-gap: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;    
+    }
+
+}
+
 @media only screen and (min-width:768px) {
+
+    .navbar-brand {
+        padding: 5px;
+        margin: 5px;
+    }
+    .navbar-brand img{
+        width: 180px;
+        padding: 2px;
+    }
+
+    .carousel {
+        display:flex;
+    }
     
     .destaca1 {
         grid-column: 1/2;
@@ -240,6 +317,16 @@ html {
 }
 
 @media only screen and (min-width:1200px) {
+
+    .navbar-brand {
+        padding: 0px;
+        margin: 25px 0px 25px 35px;
+    }
+    
+    #navbarNav {
+        padding: 0%;
+        margin-left: -215px;
+    }
 
     .destaca1 {
         grid-column: 1/2;
@@ -457,16 +544,6 @@ textarea {
 
 .nav-link {
     text-transform: uppercase;
-}
-
-.navbar-brand {
-    padding: 0px;
-    margin: 25px 0px 25px 35px;
-}
-
-#navbarNav {
-    padding: 0%;
-    margin-left: -215px;
 }
 
 .text {
