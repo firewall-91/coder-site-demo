@@ -6,9 +6,10 @@
 
 html {
     scroll-behavior: smooth;
+}
+body {
     background-color: white;
 }
-
 .arribados-pic item {
     transition: all 0.8s;
     filter: grayscale(0%);
@@ -391,13 +392,13 @@ html {
         display: inline-block;
         font-size: 34px;
         padding-inline: 0.1pt;
-        color:#161515;
+        color:#ffffff;
         font-weight: 100;
     }
     .redes-sociales {
         font-size: 34px;
-        color:#dbdbdb;
-        font-weight: 100;
+        color:#1b1b1b;
+        font-weight: 300;
     }
     .derechos {
         font-size: 14px;
