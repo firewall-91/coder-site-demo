@@ -1,0 +1,652 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* -----Variables - inicio ----------*/
+
+$color1: white;
+$color2: black;
+$color3: #CE5A0B;
+$color4: #d4d4d4;
+$size1: 16px;
+
+
+/* -----Variables - fin -------------*/
+
+.arribados-pic item {
+    transition: all 0.8s;
+    filter: grayscale(0%);
+}
+.arribados-pic item:hover {
+    transform: scale(1.02);
+    transition: all 0.8s;
+    filter: grayscale(75%);
+}
+
+.footer-links ul li{
+    padding: 7px;
+    display: inline-block;
+}
+.footer-links ul li a{
+    color: $color2;
+    text-decoration: none;
+}
+.redes-sociales ul {
+    display: inline-block;
+    font-size: 28px;
+}
+
+.product {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 500px 500px 500px;
+    padding: 10px 10px 50px 150px;
+    grid-gap: 15px;
+}
+.product item {
+    transition: all 0.8s;
+}
+.product item:hover {
+    transform: scale(1.06);
+    transition: all 0.8s;
+}
+
+@media only screen and (min-width:320px) {
+    
+    .navbar-brand {
+        padding: 0px;
+        margin: 2px;
+    }
+    .navbar-brand img{
+        width: 160px;
+        padding: 10px;
+    }
+    
+    #navbarNav {
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .carousel {
+        display: none;
+    }
+
+    .arribados-pic {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 2;
+        grid-template-rows: 452px 452px;
+        grid-template-columns: 320px;
+        padding: 5px;
+        grid-gap: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;   
+        justify-content: center;
+    }
+    .destaca1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .destaca2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url(./media/productos/arribado2.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    footer {
+        background-color: $color1;
+        min-height: 200px;
+        width: 100%;
+        color: $color1;
+        bottom: 0px;
+        background-color: $color1;
+        background-image: linear-gradient(180deg, $color4 0%, $color3 100%);
+    
+        .footer-links {
+        text-align: center;
+        padding-top: 40px;
+        }    
+            ul {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 0.5pt;
+            }
+                ul li a{
+                text-decoration: none;
+                font-weight: 400;
+                color: $color2;
+                }
+}
+    .redes-sociales {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 28px;
+        color:#1b1b1b;
+        font-weight: 100;
+    
+        ul a{
+        display: inline-block;
+        font-size: 28px;
+        padding-inline: 0.1pt;
+        color:$color1;
+        font-weight: 100;
+        }
+}
+    .derechos {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 1px;
+        color: $color2;
+    }
+
+.product {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: repeat(6, 4fr);
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 300px;
+    padding: 10px 10px 10px 10px;
+    grid-gap: 15px;
+}
+.item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(./media/productos/1.jpg);
+    background-size: cover;
+}
+.item2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url(./media/productos/2.jpg);
+    background-size: cover;
+}
+.item3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(./media/productos/3.jpg);
+    background-size: cover;
+}
+.item4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-image: url(./media/productos/4.jpg);
+    background-size: cover;
+}
+.item5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-image: url(./media/productos/5.jpg);
+    background-size: cover;
+}
+.item6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    background-image: url(./media/productos/6.jpg);
+    background-size: cover;
+}
+
+.youtube {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    padding: 5px;
+    grid-gap: 15px;
+}
+.youtube iframe {
+    transition: all 0.8s;
+}
+.youtube iframe:hover {
+    transform: scale(1.03);
+    transition: all 0.8s;
+}
+.video1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 310px;
+    height: auto;
+}
+.video2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 310px;
+    height: auto;
+}
+.spotify {
+    padding: 5px;
+}
+}
+
+@media only screen and (min-width:575px){
+
+    .navbar-brand {
+        padding: 0px;
+        margin: 2px;
+    }
+    .navbar-brand img{
+        width: 180px;
+        padding: 5px;
+    }
+
+    .carousel {
+        display:flex;
+    }
+    
+    .destaca1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .destaca2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .arribados-pic {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        grid-template-rows: 397px;
+        grid-template-columns: 280px 280px;
+        padding: 5px;
+        grid-gap: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;    
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+
+    .navbar-brand {
+        padding: 5px;
+        margin: 5px;
+    
+        img{
+            width: 180px;
+            padding: 2px;
+        }
+}
+
+    .carousel {
+        display:flex;
+    }
+    
+    .destaca1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .destaca2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .arribados-pic {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        grid-template-rows: 538px;
+        grid-template-columns: 380px 380px;
+        padding: 5px;
+        grid-gap: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;    
+    }   
+}
+
+@media only screen and (min-width:1200px) {
+
+    .navbar-brand {
+        padding: 0px;
+        margin: 25px 0px 25px 35px;
+    }
+    
+    #navbarNav {
+        padding: 0%;
+        margin-left: -215px;
+    }
+
+    .destaca1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado1.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .destaca2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(./media/productos/arribado2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .arribados-pic {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        grid-template-rows: 700px;
+        grid-template-columns: 494px 494px;
+        padding: 5px;
+        grid-gap: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        
+    } 
+    
+    footer {
+        background-color: $color1;
+        min-height: 200px;
+        width: 100%;
+        color: $color1;
+        bottom: 0px;
+        background-color: $color1;
+        background-image: linear-gradient(180deg, $color4 0%, $color3 100%);
+    
+        .footer-links {
+        text-align: center;
+        padding-top: 40px;
+    }
+            ul {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 0.5pt;
+            }
+                li a{
+                text-decoration: none;
+                font-weight: 400;
+                color: $color2;
+                }
+    }
+    .redes-sociales {
+        text-align: center;
+        padding-top: 5px;
+        font-size: 34px;
+        color:#1b1b1b;
+        font-weight: 300;
+    
+        ul a{
+        display: inline-block;
+        font-size: 34px;
+        padding-inline: 0.1pt;
+        color: $color1;
+        font-weight: 100;
+        }
+}
+    .derechos {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 1px;
+        color: $color2;
+    }
+    
+    .product {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 500px 500px;
+        grid-template-columns: 500px 500px 500px;
+        padding: 10px 10px 50px 150px;
+        grid-gap: 15px;
+        margin-top: 35px;
+    }
+    .item1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url(./media/productos/1.jpg);
+        background-size: cover;
+    }
+    .item2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background-image: url(./media/productos/2.jpg);
+        background-size: cover;
+    }
+    .item3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-image: url(./media/productos/3.jpg);
+        background-size: cover;
+    }
+    .item4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url(./media/productos/4.jpg);
+        background-size: cover;
+    }
+    .item5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-image: url(./media/productos/5.jpg);
+        background-size: cover;
+    }
+    .item6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        background-image: url(./media/productos/6.jpg);
+        background-size: cover;
+    }
+    
+    .youtube {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 315px;
+        grid-template-columns: 560px 560px;
+        padding: 5px;
+        grid-gap: 15px;
+        padding-left: 400px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+
+        iframe {
+        transition: all 0.8s;
+        }
+        iframe:hover {
+        transform: scale(1.01);
+        transition: all 0.8s;
+        }
+}
+    .video1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 560px;
+        height: 315px;
+    }
+    .video2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        width: 560px;
+        height: 315px;
+    }
+
+    .spotify {
+        padding: 5px 5px 50px 650px;
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+}
+
+/* CSS del formulario de contacto */
+
+form { max-width:420px; margin:50px auto; }
+.entrada {
+    color: $color2;
+    font-weight:300;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 1px solid #b6b2b2;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+.entrada:focus { border:1px solid #2b2828; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+    [type="submit"] {
+
+    width: 100%;
+    background:#2c2b2b;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:500;
+}
+    [type="submit"]:hover { background: $color3; }
+
+/*   ------------------------------------------------------- */
+
+#carouselExampleCaptions {
+    padding: 0%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.text {
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+
+.store {
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+
+.titulo {
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+}
+
+#texto {
+    color: rgb(36, 36, 36);
+}
+
+.bn54 {
+    padding: 0px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: $color1;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 280px;
+    background-color: #141414;
+}
+
+.bn54 .bn54span {
+    color: $color1;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.bn54:hover {
+    animation: bn54rotate 0.7s ease-in-out both;
+}
+
+.bn54:hover .bn54span {
+    animation: bn54storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+}
+
+@keyframes bn54rotate {
+    0% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+        transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+        transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+        transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+}
+
+@keyframes bn54storm {
+    0% {
+        transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+        transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+        transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+        transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) translateZ(0);
+    }
+}
