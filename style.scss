@@ -65,12 +65,12 @@ $size1: 16px;
     .navbar-brand {
         padding: 0px;
         margin: 2px;
-    }
-    .navbar-brand img{
-        width: 160px;
-        padding: 10px;
-    }
-    
+
+        img{
+            width: 160px;
+            padding: 10px;
+        }
+}
     #navbarNav {
         padding: 0px;
         margin-left: 0px;
@@ -212,13 +212,14 @@ $size1: 16px;
     grid-template-rows: auto auto;
     padding: 5px;
     grid-gap: 15px;
-}
-.youtube iframe {
+
+    iframe {
     transition: all 0.8s;
-}
-.youtube iframe:hover {
+    }
+    iframe:hover {
     transform: scale(1.03);
     transition: all 0.8s;
+    }
 }
 .video1 {
     grid-column: 1/2;
@@ -293,7 +294,7 @@ $size1: 16px;
             width: 180px;
             padding: 2px;
         }
-}
+    }
 
     .carousel {
         display:flex;
@@ -367,8 +368,7 @@ $size1: 16px;
         grid-gap: 0px;
         margin-top: 50px;
         margin-bottom: 50px;
-        justify-content: center;
-        
+        justify-content: center;    
     } 
     
     footer {
@@ -383,7 +383,7 @@ $size1: 16px;
         .footer-links {
         text-align: center;
         padding-top: 40px;
-    }
+        }
             ul {
             display: inline-block;
             text-transform: uppercase;
@@ -410,7 +410,7 @@ $size1: 16px;
         color: $color1;
         font-weight: 100;
         }
-}
+    }
     .derechos {
         font-size: 14px;
         text-align: center;
@@ -487,7 +487,7 @@ $size1: 16px;
         transform: scale(1.01);
         transition: all 0.8s;
         }
-}
+    }
     .video1 {
         grid-column: 1/2;
         grid-row: 1/2;
