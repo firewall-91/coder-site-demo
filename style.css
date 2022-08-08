@@ -222,6 +222,11 @@ html {
   }
   .spotify {
     padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 }
 @media only screen and (min-width: 575px) {
@@ -264,6 +269,14 @@ html {
     margin-bottom: 50px;
     justify-content: center;
   }
+  .spotify {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .navbar-brand {
@@ -304,6 +317,14 @@ html {
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
+  }
+  .spotify {
+    padding: 25px;
+    margin: 50px, 100px, 50px, 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -468,9 +489,12 @@ html {
     height: 315px;
   }
   .spotify {
-    padding: 5px 5px 50px 650px;
-    margin-top: 30px;
-    margin-left: 80px;
+    padding: 25px;
+    margin: 50px, 100px, 50px, 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
   }
 }
 /* CSS del formulario de contacto */
