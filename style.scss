@@ -241,6 +241,24 @@ $size1: 16px;
     justify-content: center;
     gap: 10px;
 }
+#boton-fuera {
+    display: none;
+}
+
+#boton-dentro {
+    margin-right: auto;
+    justify-content: center;
+}
+#boton2-dentro {
+    margin-top: 10px;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.fa-cart-shopping {
+    display: none;
+}
+
 }
 
 @media only screen and (min-width:575px){
@@ -296,6 +314,7 @@ $size1: 16px;
         gap: 10px;
     }
 
+
 }
 
 @media only screen and (min-width:768px) {
@@ -350,6 +369,29 @@ $size1: 16px;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
+    }
+
+    #boton-dentro {
+        display: none;
+    }
+
+    #boton-fuera {
+        display: flex;
+        margin-right: 15px;
+    }
+
+    #boton2-dentro {
+        display: none;
+    }
+
+    .fa-cart-shopping {
+        display: flex;
+        font-size: 24px;
+        padding: 1px;
+        margin-right: 25px;
+        text-decoration: none;
+        color: $color2;
+    
     }
 }
 
@@ -532,6 +574,8 @@ $size1: 16px;
         justify-content: center;
         gap: 10px;
     }
+
+
 }
 
 /* CSS del formulario de contacto */
